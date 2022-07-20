@@ -1,5 +1,5 @@
 .head{
-  width: 1000px;
+  width: 1500px;
   color:#000080;
   font-family: Helvetica, "游ゴシック", sans-serif;
   font-weight: bold;
@@ -21,8 +21,8 @@
 }
 
 .contents{
-  width: 1000px;
-  height: 500px;
+  width: 1500px;
+  height: 750px;
   position: relative;
 }
 
@@ -36,7 +36,7 @@
 
 .main_txt{
   position:absolute;
-  top:50%;
+  top:55%;
   font-size: 50px;
   font-weight: 300;
 }
@@ -46,6 +46,6 @@
   top: 67%;
   background-color: #000080;
   width: 75%;
-  height: 120px;
+  height: 180px;
   z-index: -10;
 }
