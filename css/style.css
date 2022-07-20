@@ -1,5 +1,9 @@
+* {
+  border: 1px solid red;
+}
+
 .head{
-  width: 1500px;
+  width: 98vw;
   color:#000080;
   font-family: Helvetica, "游ゴシック", sans-serif;
   font-weight: bold;
@@ -21,8 +25,8 @@
 }
 
 .contents{
-  width: 1500px;
-  height: 750px;
+  width: 98vw;
+  height: 50vw;
   position: relative;
 }
 
@@ -31,21 +35,22 @@
   left: 50%;
   top: 15%;
   width: 50%;
+  height: auto;
   z-index: 10;
 }
 
 .main_txt{
   position:absolute;
   top:55%;
-  font-size: 50px;
+  font-size: 3.5vw;
   font-weight: 300;
 }
 
-.blue_box{
-  position:absolute;
+.blue_box {
+  position: absolute;
   top: 67%;
   background-color: #000080;
   width: 75%;
-  height: 180px;
+  height: 25%;
   z-index: -10;
 }
