@@ -1,0 +1,51 @@
+.head{
+  width: 1000px;
+  color:#000080;
+  font-family: Helvetica, "游ゴシック", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title_txt{
+  font-size:24px;
+}
+
+.menu_list{
+  font-size: 15px;
+}
+
+.menu_content{
+  padding-left: 20px;
+}
+
+.contents{
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+
+.pict{
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  width: 50%;
+  z-index: 10;
+}
+
+.main_txt{
+  position:absolute;
+  top:50%;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.blue_box{
+  position:absolute;
+  top: 67%;
+  background-color: #000080;
+  width: 75%;
+  height: 120px;
+  z-index: -10;
+}
